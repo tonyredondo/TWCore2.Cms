@@ -1,3 +1,3 @@
 cd src/TWCore.Cms.Web
-dotnet run -c Release /cPath="../TWCore.Cms.Web.Components"
+dotnet ./bin/Release/netcoreapp2.0/TWCore.Cms.Web.dll /cPath="../TWCore.Cms.Web.Components"
 cd ../..
