@@ -16,6 +16,7 @@ limitations under the License.
 
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
 // ReSharper disable CheckNamespace
@@ -40,7 +41,7 @@ namespace TWCore.Cms.Models
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public CmsUrlMatch GetMatch(string scheme, string hostname, int port, string path)
         {
-            var candidates = FindAll(i => (i.Port <= 0 || i.Port == port) &&
+            var candidates = this.Where(i => (i.Port <= 0 || i.Port == port) &&
                 string.Equals(i.Scheme, scheme, StringComparison.OrdinalIgnoreCase) &&
                 string.Equals(i.Hostname, hostname, StringComparison.OrdinalIgnoreCase));
 
