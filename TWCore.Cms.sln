@@ -9,7 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TWCore.Cms.Abstractions", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TWCore.Cms", "src\TWCore.Cms\TWCore.Cms.csproj", "{FA629A28-ED72-43FD-96CC-6079B4AA47CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TWCore.Cms.Web.Components", "src\TWCore.Cms.Web.Components\TWCore.Cms.Web.Components.csproj", "{4EEB02AD-0074-48CA-BC86-CFF5805CAAF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TWCore.Cms.Web.Components", "src\TWCore.Cms.Web.Components\TWCore.Cms.Web.Components.csproj", "{4EEB02AD-0074-48CA-BC86-CFF5805CAAF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8F49B0ED-0824-4980-AC9A-2B9D0EF89C1A}"
+	ProjectSection(SolutionItems) = preProject
+		run.cmd = run.cmd
+		run.sh = run.sh
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
