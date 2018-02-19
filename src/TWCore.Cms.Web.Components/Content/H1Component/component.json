@@ -1,0 +1,31 @@
+﻿{
+  "PlaceholderType": 30,
+  "Locales": [
+    {
+      "MarketKey": "*",
+      "CultureKey": "*",
+      "ViewContentType": 0,
+      "ViewContent": "<h1>@Model.Data[\"Value\"]</h1>",
+      "EditorContentType": 0,
+      "Vars": {
+        "Styles": [],
+        "Scripts": [],
+        "Data": {
+          "Value": {
+            "SValue": "H1",
+            "Option": 0,
+            "Type": 1
+          }
+        }
+      }
+    }
+  ],
+  "Rev": 0,
+  "Name": "H1 Component",
+  "Description": "Basic H1 component",
+  "Key": "H1Component",
+  "CreationDate": "2017-03-16T00:00:00.0000000+01:00",
+  "UpdateDate": "2017-03-16T00:00:00.0000000+01:00",
+  "PreRenderVars": 1,
+  "Enabled": true
+}

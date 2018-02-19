@@ -1,0 +1,950 @@
+﻿{
+  "Markets": [
+    {
+      "IsoTag": "fr",
+      "Vars": {
+        "Styles": [
+          {
+            "SValue": "market.fr",
+            "Option": 0,
+            "Type": 1
+          }
+        ],
+        "Scripts": [
+          {
+            "SValue": "market.fr",
+            "Option": 0,
+            "Type": 1
+          }
+        ],
+        "Data": {}
+      },
+      "PicturePath": "fr-flag.png",
+      "Name": "French",
+      "Description": "French Market",
+      "Notes": "",
+      "Id": "markets/1",
+      "Key": "fr",
+      "CreationDate": "2017-03-07T13:32:07.7505649+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7505649+01:00",
+      "Enabled": true
+    },
+    {
+      "IsoTag": "es",
+      "Vars": {
+        "Styles": [
+          {
+            "SValue": "market.es",
+            "Option": 0,
+            "Type": 1
+          }
+        ],
+        "Scripts": [
+          {
+            "SValue": "market.es",
+            "Option": 0,
+            "Type": 1
+          }
+        ],
+        "Data": {}
+      },
+      "PicturePath": "es-flag.png",
+      "Name": "Spanish",
+      "Description": "Spanish Market",
+      "Notes": "",
+      "Id": "markets/2",
+      "Key": "es",
+      "CreationDate": "2017-03-07T13:32:07.7505649+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7505649+01:00",
+      "Enabled": true
+    }
+  ],
+  "Cultures": [
+    {
+      "IsoTag": "fr",
+      "FirstDayOfWeek": 1,
+      "ShortDateFormat": "dd/MM/yyyy",
+      "LongDateFormat": "ddd, dd MMM yyyy",
+      "ShortTimeFormat": "Hhmm",
+      "LongTimeFormat": "H:mm:ss",
+      "Vars": {
+        "Styles": [
+          {
+            "SValue": "culture.fr",
+            "Option": 0,
+            "Type": 1
+          }
+        ],
+        "Scripts": [
+          {
+            "SValue": "culture.fr",
+            "Option": 0,
+            "Type": 1
+          }
+        ],
+        "Data": {}
+      },
+      "PicturePath": "fr-flag.png",
+      "Name": "French",
+      "Description": "French Culture",
+      "Notes": "French Culture",
+      "Id": "cultures/1",
+      "Key": "fr",
+      "CreationDate": "2017-03-07T13:32:07.752066+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.752066+01:00",
+      "Enabled": true
+    },
+    {
+      "IsoTag": "es",
+      "FirstDayOfWeek": 1,
+      "ShortDateFormat": "dd/MM/yyyy",
+      "LongDateFormat": "dddd, d' de 'MMMM' de 'aaaa",
+      "ShortTimeFormat": "H:mm",
+      "LongTimeFormat": "H:mm:ss",
+      "Vars": {
+        "Styles": [
+          {
+            "SValue": "culture.es",
+            "Option": 0,
+            "Type": 1
+          }
+        ],
+        "Scripts": [
+          {
+            "SValue": "culture.es",
+            "Option": 0,
+            "Type": 1
+          }
+        ],
+        "Data": {}
+      },
+      "PicturePath": "es-flag.png",
+      "Name": "Spanish",
+      "Description": "Spanish Culture",
+      "Notes": "Spanish Culture",
+      "Id": "cultures/2",
+      "Key": "es",
+      "CreationDate": "2017-03-07T13:32:07.752066+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.752066+01:00",
+      "Enabled": true
+    }
+  ],
+  "Stylesheets": [
+    {
+      "CollectionType": 0,
+      "Type": 10,
+      "Media": 0,
+      "Source": "market.fr.css",
+      "Name": "market.fr",
+      "Id": "stylesheets/1",
+      "Key": "market.fr",
+      "CreationDate": "2017-03-07T13:32:07.7540677+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7540677+01:00",
+      "Enabled": true
+    },
+    {
+      "CollectionType": 0,
+      "Type": 10,
+      "Media": 0,
+      "Source": "market.es.css",
+      "Name": "market.es",
+      "Id": "stylesheets/2",
+      "Key": "market.es",
+      "CreationDate": "2017-03-07T13:32:07.7540677+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7540677+01:00",
+      "Enabled": true
+    },
+    {
+      "CollectionType": 1,
+      "Type": 10,
+      "Media": 0,
+      "Source": "culture.fr.css",
+      "Name": "culture.fr",
+      "Id": "stylesheets/3",
+      "Key": "culture.fr",
+      "CreationDate": "2017-03-07T13:32:07.7540677+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7540677+01:00",
+      "Enabled": true
+    },
+    {
+      "CollectionType": 1,
+      "Type": 10,
+      "Media": 0,
+      "Source": "culture.es.css",
+      "Name": "culture.es",
+      "Id": "stylesheets/4",
+      "Key": "culture.es",
+      "CreationDate": "2017-03-07T13:32:07.7540677+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7540677+01:00",
+      "Enabled": true
+    },
+    {
+      "CollectionType": 3,
+      "Type": 10,
+      "Media": 0,
+      "Source": "group.wl.css",
+      "Name": "group.wl",
+      "Id": "stylesheets/5",
+      "Key": "group.wl",
+      "CreationDate": "2017-03-07T13:32:07.7540677+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7540677+01:00",
+      "Enabled": true
+    },
+    {
+      "CollectionType": 3,
+      "Type": 10,
+      "Media": 0,
+      "Source": "group.b2c.css",
+      "Name": "group.b2c",
+      "Id": "stylesheets/6",
+      "Key": "group.b2c",
+      "CreationDate": "2017-03-07T13:32:07.7540677+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7540677+01:00",
+      "Enabled": true
+    },
+    {
+      "CollectionType": 2,
+      "Type": 10,
+      "Media": 0,
+      "Source": "site.css",
+      "Name": "site",
+      "Id": "stylesheets/7",
+      "Key": "site",
+      "CreationDate": "2017-03-07T13:32:07.7540677+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7540677+01:00",
+      "Enabled": true
+    },
+    {
+      "CollectionType": 4,
+      "Type": 10,
+      "Media": 0,
+      "Source": "page.fr.css",
+      "Name": "page.fr",
+      "Id": "stylesheets/8",
+      "Key": "page.fr",
+      "CreationDate": "2017-03-07T13:32:07.7540677+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7540677+01:00",
+      "Enabled": true
+    },
+    {
+      "CollectionType": 4,
+      "Type": 10,
+      "Media": 0,
+      "Source": "page.es.css",
+      "Name": "page.es",
+      "Id": "stylesheets/9",
+      "Key": "page.es",
+      "CreationDate": "2017-03-07T13:32:07.7540677+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7540677+01:00",
+      "Enabled": true
+    }
+  ],
+  "Scripts": [
+    {
+      "CollectionType": 0,
+      "Type": 0,
+      "LoadType": 0,
+      "Source": "window.alert('French Market')",
+      "Name": "market.fr",
+      "Id": "scripts/1",
+      "Key": "market.fr",
+      "CreationDate": "2017-03-07T13:32:07.7550678+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7550678+01:00",
+      "Enabled": true
+    },
+    {
+      "CollectionType": 0,
+      "Type": 0,
+      "LoadType": 0,
+      "Source": "window.alert('Spanish Market')",
+      "Name": "market.es",
+      "Id": "scripts/2",
+      "Key": "market.es",
+      "CreationDate": "2017-03-07T13:32:07.7550678+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7550678+01:00",
+      "Enabled": true
+    },
+    {
+      "CollectionType": 1,
+      "Type": 0,
+      "LoadType": 0,
+      "Source": "window.alert('French Culture')",
+      "Name": "culture.fr",
+      "Id": "scripts/3",
+      "Key": "culture.fr",
+      "CreationDate": "2017-03-07T13:32:07.7550678+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7550678+01:00",
+      "Enabled": true
+    },
+    {
+      "CollectionType": 1,
+      "Type": 0,
+      "LoadType": 0,
+      "Source": "window.alert('Spanish Culture')",
+      "Name": "culture.es",
+      "Id": "scripts/4",
+      "Key": "culture.es",
+      "CreationDate": "2017-03-07T13:32:07.7550678+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7550678+01:00",
+      "Enabled": true
+    },
+    {
+      "CollectionType": 3,
+      "Type": 0,
+      "LoadType": 0,
+      "Source": "window.alert('White Label Pages Group')",
+      "Name": "group.wl",
+      "Id": "scripts/5",
+      "Key": "group.wl",
+      "CreationDate": "2017-03-07T13:32:07.7550678+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7550678+01:00",
+      "Enabled": true
+    },
+    {
+      "CollectionType": 3,
+      "Type": 0,
+      "LoadType": 0,
+      "Source": "window.alert('B2C Pages Group')",
+      "Name": "group.b2c",
+      "Id": "scripts/6",
+      "Key": "group.b2c",
+      "CreationDate": "2017-03-07T13:32:07.7550678+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7550678+01:00",
+      "Enabled": true
+    },
+    {
+      "CollectionType": 2,
+      "Type": 0,
+      "LoadType": 0,
+      "Source": "window.alert('Sample Site')",
+      "Name": "site",
+      "Id": "scripts/7",
+      "Key": "site",
+      "CreationDate": "2017-03-07T13:32:07.7550678+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7550678+01:00",
+      "Enabled": true
+    },
+    {
+      "CollectionType": 4,
+      "Type": 0,
+      "LoadType": 0,
+      "Source": "window.alert('Page JS')",
+      "Name": "page.fr",
+      "Id": "scripts/8",
+      "Key": "page.fr",
+      "CreationDate": "2017-03-07T13:32:07.7550678+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7550678+01:00",
+      "Enabled": true
+    },
+    {
+      "CollectionType": 4,
+      "Type": 0,
+      "LoadType": 0,
+      "Source": "window.alert('Page JS')",
+      "Name": "page.es",
+      "Id": "scripts/9",
+      "Key": "page.es",
+      "CreationDate": "2017-03-07T13:32:07.7550678+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7550678+01:00",
+      "Enabled": true
+    }
+  ],
+  "Components": [],
+  "Sites": [
+    {
+      "UrlBindings": [
+        {
+          "Scheme": "http",
+          "Hostname": "localhost",
+          "Port": 49268,
+          "Path": "/"
+        },
+        {
+          "Scheme": "http",
+          "Hostname": "10.10.0.45",
+          "Port": 5102,
+          "Path": "/"
+        },
+        {
+          "Scheme": "http",
+          "Hostname": "localhost",
+          "Port": 5102,
+          "Path": "/"
+        },
+        {
+          "Scheme": "http",
+          "Hostname": "*",
+          "Port": 0,
+          "Path": "/"
+        }
+      ],
+      "MarketKey": "es",
+      "CultureKey": "es",
+      "PagesGroups": [
+        "WhiteLabel"
+      ],
+      "Header": {
+        "ComponentKey": "H1Component",
+        "ComponentRev": 0,
+        "LayoutOrder": 0,
+        "DateFrom": "0001-01-01T00:00:00",
+        "DateTo": "0001-01-01T00:00:00",
+        "Vars": {
+          "Styles": [],
+          "Scripts": [],
+          "Data": {
+            "Value": {
+              "SValue": "Header: Mi primer H1",
+              "Option": 0,
+              "Type": 1
+            }
+          }
+        }
+      },
+      "Footer": {
+        "ComponentKey": "H2Component",
+        "ComponentRev": 0,
+        "LayoutOrder": 0,
+        "DateFrom": "0001-01-01T00:00:00",
+        "DateTo": "0001-01-01T00:00:00",
+        "Vars": {
+          "Styles": [],
+          "Scripts": [],
+          "Data": {
+            "Value": {
+              "SValue": "Footer: Mi primer H2",
+              "Option": 0,
+              "Type": 1
+            }
+          }
+        }
+      },
+      "Vars": {
+        "Styles": [
+          {
+            "SValue": "site",
+            "Option": 0,
+            "Type": 1
+          }
+        ],
+        "Scripts": [
+          {
+            "SValue": "site",
+            "Option": 0,
+            "Type": 1
+          }
+        ],
+        "Data": {
+          "Option1": {
+            "BValue": true,
+            "Option": 0,
+            "Type": 2
+          }
+        }
+      },
+      "Published": true,
+      "Rev": 1,
+      "RevComment": "Version inicial",
+      "Name": "Test Site",
+      "Description": "This is a Test Site",
+      "Id": "sites/1",
+      "Key": "SampleSite",
+      "CreationDate": "2017-03-07T13:32:07.7630734+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7630734+01:00",
+      "Enabled": true
+    },
+    {
+      "UrlBindings": [
+        {
+          "Scheme": "http",
+          "Hostname": "localhost",
+          "Port": 49268,
+          "Path": "/inner/"
+        },
+        {
+          "Scheme": "http",
+          "Hostname": "10.10.0.45",
+          "Port": 5102,
+          "Path": "/inner/"
+        },
+        {
+          "Scheme": "http",
+          "Hostname": "localhost",
+          "Port": 5102,
+          "Path": "/inner/"
+        },
+        {
+          "Scheme": "http",
+          "Hostname": "*",
+          "Port": 0,
+          "Path": "/inner/"
+        }
+      ],
+      "MarketKey": "fr",
+      "CultureKey": "fr",
+      "PagesGroups": [
+        "B2C"
+      ],
+      "Header": {
+        "ComponentKey": "H1Component",
+        "ComponentRev": 0,
+        "LayoutOrder": 0,
+        "DateFrom": "0001-01-01T00:00:00",
+        "DateTo": "0001-01-01T00:00:00",
+        "Vars": {
+          "Styles": [],
+          "Scripts": [],
+          "Data": {
+            "Value": {
+              "SValue": "Header: Mi primer H1 en un inner site",
+              "Option": 0,
+              "Type": 1
+            }
+          }
+        }
+      },
+      "Footer": {
+        "ComponentKey": "H2Component",
+        "ComponentRev": 0,
+        "LayoutOrder": 0,
+        "DateFrom": "0001-01-01T00:00:00",
+        "DateTo": "0001-01-01T00:00:00",
+        "Vars": {
+          "Styles": [],
+          "Scripts": [],
+          "Data": {
+            "Value": {
+              "SValue": "Footer: Mi primer H2 en un inner site",
+              "Option": 0,
+              "Type": 1
+            }
+          }
+        }
+      },
+      "Vars": {
+        "Styles": [
+          {
+            "SValue": "site",
+            "Option": 0,
+            "Type": 1
+          }
+        ],
+        "Scripts": [
+          {
+            "SValue": "site",
+            "Option": 0,
+            "Type": 1
+          }
+        ],
+        "Data": {
+          "Option1": {
+            "BValue": true,
+            "Option": 0,
+            "Type": 2
+          }
+        }
+      },
+      "Published": true,
+      "Rev": 0,
+      "Name": "Test Inner Site",
+      "Description": "This is a Test for a Inner Site",
+      "Id": "sites/2",
+      "Key": "SampleInnerSite",
+      "CreationDate": "2017-03-07T13:32:07.7630734+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7630734+01:00",
+      "Enabled": true
+    }
+  ],
+  "PagesGroups": [
+    {
+      "LocalizedVars": [
+        {
+          "MarketKey": "*",
+          "CultureKey": "*",
+          "Vars": {
+            "Styles": [
+              {
+                "SValue": "group.b2c",
+                "Option": 0,
+                "Type": 1
+              }
+            ],
+            "Scripts": [
+              {
+                "SValue": "group.b2c",
+                "Option": 0,
+                "Type": 1
+              }
+            ],
+            "Data": {}
+          }
+        }
+      ],
+      "PagesKey": [
+        "HomePage"
+      ],
+      "Name": "B2C Pages Group",
+      "Description": "This is the B2C site type values",
+      "Id": "pagesgroups/1",
+      "Key": "B2C",
+      "CreationDate": "2017-03-07T13:32:07.7530667+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7530667+01:00",
+      "Enabled": true
+    },
+    {
+      "LocalizedVars": [
+        {
+          "MarketKey": "*",
+          "CultureKey": "*",
+          "Vars": {
+            "Styles": [
+              {
+                "SValue": "group.wl",
+                "Option": 0,
+                "Type": 1
+              }
+            ],
+            "Scripts": [
+              {
+                "SValue": "group.wl",
+                "Option": 0,
+                "Type": 1
+              }
+            ],
+            "Data": {}
+          }
+        }
+      ],
+      "PagesKey": [
+        "HomePage"
+      ],
+      "Name": "White Label",
+      "Description": "This is the White Label site type values",
+      "Id": "pagesgroups/2",
+      "Key": "WhiteLabel",
+      "CreationDate": "2017-03-07T13:32:07.7530667+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7530667+01:00",
+      "Enabled": true
+    }
+  ],
+  "Pages": [
+    {
+      "BehaviorPipelineTypes": [ "TWCore.Cms.Web.LoginPageBehavior, TWCore.Cms.Web" ],
+      "DateFrom": "0001-01-01T00:00:00",
+      "DateTo": "9999-12-31T23:59:59.9999999",
+      "Robots": 0,
+      "ResponseCode": 200,
+      "IncludeInSiteMap": true,
+      "SelectionMode": 0,
+      "Instances": [
+        {
+          "MarketKey": "fr",
+          "CultureKey": "fr",
+          "PagesGroupKey": "*",
+          "SiteKey": "*",
+          "Routes": [
+            "/",
+            "/Home"
+          ],
+          "Title": "Page d'accueil",
+          "Keywords": "Accueil, Page",
+          "PublishStatus": 1,
+          "ForwardMode": 301,
+          "ForwardUrl": "/404/fr",
+          "Vars": {
+            "Styles": [
+              {
+                "SValue": "page.fr",
+                "Option": 0,
+                "Type": 1
+              }
+            ],
+            "Scripts": [
+              {
+                "SValue": "page.fr",
+                "Option": 0,
+                "Type": 1
+              }
+            ],
+            "Data": {}
+          },
+          "ParentComponent": {
+            "ComponentKey": "BasicLayout",
+            "ComponentRev": 0,
+            "LayoutOrder": 0,
+            "DateFrom": "0001-01-01T00:00:00",
+            "DateTo": "0001-01-01T00:00:00",
+            "Children": [
+              {
+                "ComponentKey": "H1Component",
+                "ComponentRev": 0,
+                "PlaceholderZone": "Main",
+                "LayoutOrder": 0,
+                "DateFrom": "0001-01-01T00:00:00",
+                "DateTo": "0001-01-01T00:00:00",
+                "Vars": {
+                  "Styles": [],
+                  "Scripts": [],
+                  "Data": {
+                    "Value": {
+                      "SValue": "Ceci est ma page d'accueil",
+                      "Option": 0,
+                      "Type": 1
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "MarketKey": "es",
+          "CultureKey": "es",
+          "PagesGroupKey": "*",
+          "SiteKey": "*",
+          "Routes": [
+            "/",
+            "/Inicio",
+            "/Name/{name}"
+          ],
+          "Title": "Página de Inicio",
+          "Keywords": "Página de Inicio",
+          "PublishStatus": 1,
+          "ForwardMode": 301,
+          "ForwardUrl": "/404/es",
+          "Vars": {
+            "Styles": [
+              {
+                "SValue": "page.es",
+                "Option": 0,
+                "Type": 1
+              }
+            ],
+            "Scripts": [
+              {
+                "SValue": "page.es",
+                "Option": 0,
+                "Type": 1
+              }
+            ],
+            "Data": {}
+          },
+          "ParentComponent": {
+            "ComponentKey": "BasicLayout",
+            "ComponentRev": 0,
+            "LayoutOrder": 0,
+            "DateFrom": "0001-01-01T00:00:00",
+            "DateTo": "0001-01-01T00:00:00",
+            "Children": [
+
+
+              {
+                "ComponentKey": "TwoColumnsLayout",
+                "ComponentRev": 0,
+                "PlaceholderZone": "Main",
+                "LayoutOrder": 0,
+                "DateFrom": "0001-01-01T00:00:00",
+                "DateTo": "0001-01-01T00:00:00",
+                "Children": [
+
+
+                  {
+                    "ComponentKey": "H1Component",
+                    "ComponentRev": 0,
+                    "PlaceholderZone": "Col0",
+                    "LayoutOrder": 0,
+                    "DateFrom": "0001-01-01T00:00:00",
+                    "DateTo": "0001-01-01T00:00:00",
+                    "Vars": {
+                      "Styles": [],
+                      "Scripts": [],
+                      "Data": {
+                        "Value": {
+                          "SValue": "Columna 0",
+                          "Option": 0,
+                          "Type": 1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ComponentKey": "H2Component",
+                    "ComponentRev": 0,
+                    "PlaceholderZone": "Col0",
+                    "LayoutOrder": 1,
+                    "DateFrom": "0001-01-01T00:00:00",
+                    "DateTo": "0001-01-01T00:00:00",
+                    "Vars": {
+                      "Styles": [],
+                      "Scripts": [],
+                      "Data": {
+                        "Value": {
+                          "SValue": "Columna 0 Otro",
+                          "Option": 0,
+                          "Type": 1
+                        }
+                      }
+                    }
+                  },
+
+                  {
+                    "ComponentKey": "H1Component",
+                    "ComponentRev": 0,
+                    "PlaceholderZone": "Col1",
+                    "LayoutOrder": 0,
+                    "DateFrom": "0001-01-01T00:00:00",
+                    "DateTo": "0001-01-01T00:00:00",
+                    "Vars": {
+                      "Styles": [],
+                      "Scripts": [],
+                      "Data": {
+                        "Value": {
+                          "SValue": "Columna 1",
+                          "Option": 0,
+                          "Type": 1
+                        }
+                      }
+                    }
+                  },
+
+                  {
+                    "ComponentKey": "H2Component",
+                    "ComponentRev": 0,
+                    "PlaceholderZone": "Col1",
+                    "LayoutOrder": 0,
+                    "DateFrom": "0001-01-01T00:00:00",
+                    "DateTo": "0001-01-01T00:00:00",
+                    "Vars": {
+                      "Styles": [],
+                      "Scripts": [],
+                      "Data": {
+                        "Value": {
+                          "SValue": "Columna 1 Otro 2",
+                          "Option": 0,
+                          "Type": 1
+                        }
+                      }
+                    }
+                  },
+
+                   {
+                    "ComponentKey": "H2Component",
+                    "ComponentRev": 0,
+                    "PlaceholderZone": "Col1",
+                    "LayoutOrder": 0,
+                    "DateFrom": "0001-01-01T00:00:00",
+                    "DateTo": "0001-01-01T00:00:00",
+                    "Vars": {
+                      "Styles": [],
+                      "Scripts": [],
+                      "Data": {
+                        "Value": {
+                          "SValue": "Columna 1 Otro 3",
+                          "Option": 0,
+                          "Type": 1
+                        }
+                      }
+                    }
+                  }
+
+
+
+
+                ]
+              }
+
+
+
+            ]
+          }
+        }
+      ],
+      "Rev": 1,
+      "RevComment": "Version inicial",
+      "Name": "HomePage",
+      "Description": "Home page",
+      "Notes": "Notes",
+      "Id": "pages/1",
+      "Key": "HomePage",
+      "CreationDate": "2017-03-07T13:32:07.7655752+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7655752+01:00",
+      "Enabled": true
+    }
+  ],
+  "Users": [
+    {
+      "Profile": {
+        "FirstName": "Daniel",
+        "LastName": "Redondo",
+        "PicturePath": "profilepic.png",
+        "Email": "tonyredondo@gmail.com",
+        "Username": "tony"
+      },
+      "Sites": {
+        "SampleSite": 14
+      },
+      "Username": "tony",
+      "Password": "123",
+      "Id": "users/1",
+      "Key": "tony",
+      "CreationDate": "2017-03-07T13:32:07.7595713+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7595713+01:00",
+      "Enabled": true
+    },
+    {
+      "Profile": {
+        "FirstName": "Gabriel",
+        "LastName": "Redondo",
+        "PicturePath": "profilepic.png",
+        "Email": "redondogabriel@gmail.com",
+        "Username": "gabriel"
+      },
+      "Sites": {
+        "SampleSite": 6
+      },
+      "Username": "gabriel",
+      "Password": "123",
+      "Id": "users/2",
+      "Key": "gabo",
+      "CreationDate": "2017-03-07T13:32:07.7595713+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7595713+01:00",
+      "Enabled": true
+    },
+    {
+      "Profile": {
+        "FirstName": "Aura",
+        "LastName": "Maneiro",
+        "PicturePath": "profilepic.png",
+        "Username": "aura"
+      },
+      "Sites": {
+        "SampleSite": 14
+      },
+      "Username": "aura",
+      "Password": "123",
+      "Id": "users/3",
+      "Key": "aura",
+      "CreationDate": "2017-03-07T13:32:07.7595713+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7595713+01:00",
+      "Enabled": true
+    },
+    {
+      "Profile": {
+        "FirstName": "Guest",
+        "LastName": "",
+        "PicturePath": "profilepic.png",
+        "Username": "guest"
+      },
+      "Sites": {
+        "SampleSite": 2
+      },
+      "Username": "guest",
+      "Password": "123",
+      "Id": "users/5",
+      "Key": "guest",
+      "CreationDate": "2017-03-07T13:32:07.7595713+01:00",
+      "UpdateDate": "2017-03-07T13:32:07.7595713+01:00",
+      "Enabled": true
+    }
+  ]
+}

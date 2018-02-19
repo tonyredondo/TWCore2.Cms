@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TWCore" Version="0.2.78" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TWCore.Cms.Abstractions\TWCore.Cms.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

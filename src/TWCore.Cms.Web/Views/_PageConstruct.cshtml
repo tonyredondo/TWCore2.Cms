@@ -1,0 +1,13 @@
+﻿@model TWCore.Cms.Models.CmsPageModel
+<!DOCTYPE html>
+<html lang="@Model.Culture">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@Model.Title</title>
+</head>
+<body>
+    @await Component.InvokeAsync("RenderComponent", Model.ParentComponent)
+</body>
+</html>
+

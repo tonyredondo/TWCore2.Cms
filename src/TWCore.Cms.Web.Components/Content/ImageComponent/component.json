@@ -1,0 +1,57 @@
+﻿{
+  "PlaceholderType": 30,
+  "Locales": [
+    {
+      "MarketKey": "*",
+      "CultureKey": "*",
+      "ViewContentType": 1,
+      "ViewContent": "component.html",
+      "EditorContentType": 0,
+      "Vars": {
+        "Styles": [],
+        "Scripts": [],
+        "Data": {
+          "Src": {
+            "SValue": "/content/empty.jpg",
+            "Option": 0,
+            "Type": 1
+          },
+          "Height": {
+            "SValue": "25px",
+            "Option": 0,
+            "Type": 1
+          },
+          "Width": {
+            "SValue": "25px",
+            "Option": 0,
+            "Type": 1
+          },
+          "SrcSet": {
+            "Option": 0,
+            "Type": 1
+          },
+          "Sizes": {
+            "Option": 0,
+            "Type": 1
+          },
+          "Alt": {
+            "Option": 0,
+            "Type": 1
+          },
+          "Usemap": {
+            "Option": 0,
+            "Type": 1
+          }
+        }
+      }
+    }
+  ],
+  "Rev": 0,
+  "Name": "Image Component",
+  "Description": "Basic image component",
+  "Key": "ImageComponent",
+  "CreationDate": "2017-03-16T00:00:00.0000000+01:00",
+  "UpdateDate": "2017-03-16T00:00:00.0000000+01:00",
+  "PreRenderVars": 1,
+  "Enabled": true
+}

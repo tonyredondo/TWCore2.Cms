@@ -1,0 +1,11 @@
+﻿{
+  "appSettings": {
+    "Core.DebugMode": true
+  },
+  "TWCore": {
+    "environmentName": "DEV",
+    "machineName": null,
+    "applicationName": "TWCore.Cms",
+    "applicationDisplayName": "TWCore CMS Engine"
+  }
+}

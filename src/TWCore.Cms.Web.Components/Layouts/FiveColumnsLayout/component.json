@@ -1,0 +1,56 @@
+﻿{
+  "PlaceholderType": 0,
+  "Locales": [
+    {
+      "MarketKey": "*",
+      "CultureKey": "*",
+      "ViewContentType": 1,
+      "ViewContent": "layout.html",
+      "EditorContentType": 0,
+      "Vars": {
+        "Styles": [],
+        "Scripts": [],
+        "Data": {
+          "Style": {
+            "SValue": "width:100%",
+            "Option": 0,
+            "Type": 1
+          },
+          "Class": {
+            "SValue": "columnscontainer",
+            "Option": 0,
+            "Type": 1
+          },
+          "Column.Style": {
+            "SValue": "width:20%; float:left;",
+            "Option": 0,
+            "Type": 1
+          },
+          "Column.Class": {
+            "SValue": "column",
+            "Option": 0,
+            "Type": 1
+          },
+          "ClearColumn.Style": {
+            "SValue": "clear:both;",
+            "Option": 0,
+            "Type": 1
+          },
+          "ClearColumn.Class": {
+            "SValue": "",
+            "Option": 0,
+            "Type": 1
+          }
+        }
+      }
+    }
+  ],
+  "Rev": 0,
+  "Name": "Basic Five Columns Layout Component",
+  "Description": "Basic Five Columns Layout Component",
+  "Key": "FiveColumnsLayout",
+  "CreationDate": "2017-03-16T00:00:00.0000000+01:00",
+  "UpdateDate": "2017-03-16T00:00:00.0000000+01:00",
+  "PreRenderVars" : 0,
+  "Enabled": true
+}
