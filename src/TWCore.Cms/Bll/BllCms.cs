@@ -18,6 +18,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using TWCore.Cms.Dal;
@@ -36,7 +37,8 @@ namespace TWCore.Cms.Bll
     {
         private readonly Random _rnd = new Random();
         private readonly IDalCms _dal;
-        private readonly ConcurrentDictionary<string, CmsPageRequest> _requestsCache = new ConcurrentDictionary<string, CmsPageRequest>(StringComparer.OrdinalIgnoreCase);
+        private readonly ConcurrentDictionary<(string Scheme, string Hostname, int Port, string Path), CmsPageRequest> _requestsCache 
+            = new ConcurrentDictionary<(string Scheme, string Hostname, int Port, string Path), CmsPageRequest>();
         private CmsPage[] _pages;
 
         #region .ctor
@@ -296,19 +298,19 @@ namespace TWCore.Cms.Bll
         /// <returns>CmsPageRequest instance</returns>
         public CmsPageRequest GetRuntimePageModel(string scheme, string hostname, int port, string path)
         {
-            var key = scheme + hostname + port + path;
-            return _requestsCache.GetOrAdd(key, mKey =>
+            return _requestsCache.GetOrAdd((scheme, hostname, port, path), mKey =>
             {
-                PrepareSiteRoutes();
+                if (_pages == null)
+                    PrepareSiteRoutes();
                 foreach (var page in _pages)
                 {
-                    var match = page.Uris.GetMatch(scheme, hostname, port, path);
+                    var match = page.Uris.GetMatch(mKey.Scheme, mKey.Hostname, mKey.Port, mKey.Path);
                     if (match != null)
                         return new CmsPageRequest { Page = page, Route = match };
                 }
                 foreach (var page in _pages)
                 {
-                    var match = page.Uris.GetMatch(scheme, "*", port, path);
+                    var match = page.Uris.GetMatch(mKey.Scheme, "*", mKey.Port, mKey.Path);
                     if (match != null)
                         return new CmsPageRequest { Page = page, Route = match };
                 }
@@ -318,6 +320,7 @@ namespace TWCore.Cms.Bll
         #endregion
 
         #region Private Methods
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private static CmsComponentInstance GetCmsComponentInstance(ComponentInstance componentInstance, Dictionary<string, Component> allComponents, Site site, CmsPage cmsPage, StringBuilder componentHash)
         {
             if (componentInstance == null) return null;

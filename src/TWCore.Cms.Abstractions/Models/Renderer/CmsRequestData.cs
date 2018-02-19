@@ -20,34 +20,36 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace TWCore.Cms.Models.Renderer
 {
+    /// <inheritdoc />
     /// <summary>
     /// Cms request data
     /// </summary>
     public class CmsRequestData : ICmsRequestData
     {
+        /// <inheritdoc />
         /// <summary>
         /// Http context
         /// </summary>
         public HttpContext Context { get; set; }
+        /// <inheritdoc />
         /// <summary>
         /// Cms page model
         /// </summary>
         public CmsPageModel Page { get; set; }
+        /// <inheritdoc />
         /// <summary>
         /// Cms route
         /// </summary>
         public CmsUrlMatch Route { get; set; }
+        /// <inheritdoc />
         /// <summary>
         /// Component count
         /// </summary>
         public int ComponentCount { get; set; }
+        /// <inheritdoc />
         /// <summary>
         /// Gets or Sets Create view
         /// </summary>
         public bool CreateView { get; set; }
-        /// <summary>
-        /// Page action result
-        /// </summary>
-        public IActionResult PageResult { get; set; }
     }
 }

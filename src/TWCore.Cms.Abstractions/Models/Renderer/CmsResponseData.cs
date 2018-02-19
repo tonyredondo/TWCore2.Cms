@@ -19,11 +19,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace TWCore.Cms.Models.Renderer
 {
+    /// <inheritdoc />
     /// <summary>
     /// Cms response data
     /// </summary>
     public class CmsResponseData : ICmsResponseData
     {
+        /// <inheritdoc />
         /// <summary>
         /// Page action result
         /// </summary>

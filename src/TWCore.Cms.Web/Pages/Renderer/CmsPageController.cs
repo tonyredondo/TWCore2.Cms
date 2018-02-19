@@ -73,7 +73,7 @@ namespace TWCore.Cms.Web.Pages.Renderer
             _requestData.Route = page.Route;
             _responseData.PageResult = View(viewPath, pageModel);
 
-            if (pageModel.BehaviorPipeline?.Any() == true)
+            if (pageModel.BehaviorPipeline != null && pageModel.BehaviorPipeline.Count > 0)
             {
                 foreach (var bObj in pageModel.BehaviorPipeline)
                 {
