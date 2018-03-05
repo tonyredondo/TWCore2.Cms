@@ -9,10 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Nito.AsyncEx.Coordination" Version="5.0.0-pre-05" />
-    <PackageReference Include="TWCore" Version="0.2.78" />
-    <PackageReference Include="TWCore.Net.HttpServer" Version="0.2.78" />
-    <PackageReference Include="TWCore.Serialization.WSerializer" Version="0.2.78" />
+    <PackageReference Include="TWCore" Version="0.2.88" />
+    <PackageReference Include="TWCore.Net.HttpServer" Version="0.2.88" />
+    <PackageReference Include="TWCore.Serialization.WSerializer" Version="0.2.88" />
   </ItemGroup>
 
   <ItemGroup>

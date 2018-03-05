@@ -17,8 +17,8 @@ limitations under the License.
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Nito.AsyncEx;
 using TWCore.Cms.Entities.Common;
+using TWCore.Threading;
 
 namespace TWCore.Cms.Dal.Cache
 {
