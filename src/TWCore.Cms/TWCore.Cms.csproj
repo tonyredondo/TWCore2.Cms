@@ -9,9 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="TWCore" Version="0.2.88" />
-    <PackageReference Include="TWCore.Net.HttpServer" Version="0.2.88" />
-    <PackageReference Include="TWCore.Serialization.WSerializer" Version="0.2.88" />
+    <PackageReference Include="TWCore" Version="0.2.89" />
+    <PackageReference Include="TWCore.Net.HttpServer" Version="0.2.89" />
+    <PackageReference Include="TWCore.Serialization.WSerializer" Version="0.2.89" />
   </ItemGroup>
 
   <ItemGroup>

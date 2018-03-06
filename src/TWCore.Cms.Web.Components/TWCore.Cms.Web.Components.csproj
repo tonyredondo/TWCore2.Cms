@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="TWCore" Version="0.2.88" />
+    <PackageReference Include="TWCore" Version="0.2.89" />
   </ItemGroup>
 
   <ItemGroup>
